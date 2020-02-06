@@ -1,6 +1,8 @@
 # MS3Interview
 
-## Approach: 
-  When doing this project over again I had the benefit of hindsight and I beleive that I created a program that follows the Object Oriented Design much more closely than my previous attempt did. Any functionality that the user may access is contained in methods of the *CVSInterview.java* class. This includes setters which allow the user to decide what the names of the database, table and the csv file that they will be reading. In these Methods I used recursion to make sure the user added the approprate extentions to the necessary file names. Table does not requre an extention and therefore does not reqire any recursive backup. The name for the table should be completly determined by the user. 
+ 
+### Design -
+After the feedback you gave me I tried to make sure that I followed a more Object Oriented approach. There are only a few methods that are available to the user, with others that are private helper functions. In addition, all of the internal variables are private so that the user cannot manipulate them directly. I also made my comments more succinct and used the integrated git in eclipse to upload it to github. I also made more of an effort to handle exceptions better.
+### How to start - 
+I have been unable to create a working jar executable file due to my current ignorance with Maven. The main method is in App.java.
 
-### hello again
